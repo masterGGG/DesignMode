@@ -8,7 +8,7 @@
 3、设计一个连接服务器的框架，需要三个协议，"POP3"、"IMAP"、"HTTP"，可以把这三个作为产品类，共同实现一个接口。
 #### 注意事项：作为一种创建类模式，在任何需要生成复杂对象的地方，都可以使用工厂方法模式。有一点需要注意的地方就是复杂对象适合使用工厂模式，而简单对象，特别是只需要通过 new 就可以完成创建的对象，无需使用工厂模式。如果使用工厂模式，就需要引入一个工厂类，会增加系统的复杂度。
 #### 结构图
-![Markdown](http://i1.bvimg.com/683123/04120d8f2e26055a.jpg)
+![Markdown](https://github.com/masterGGG/HeadFirst/blob/master/icon/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F.jpg?raw=true)
 
 ### Abstract Factory（抽象工厂模式）
 #### 简介：创造工厂的工厂
@@ -18,6 +18,5 @@
 #### 缺点： 产品族扩展非常困难，要增加一个系列的某一产品，既要在抽象的 Creator 里加代码，又要在具体的里面加代码。
 - 
 #### 结构图
-![抽象工厂](http://i1.bvimg.com/683123/e7da263154447828.png)
-
+![抽象工厂](https://github.com/masterGGG/HeadFirst/blob/master/icon/%E6%8A%BD%E8%B1%A1%E5%B7%A5%E5%8E%82.png?raw=true)
 #### [参考](https://blog.51cto.com/zero01/2070033)
